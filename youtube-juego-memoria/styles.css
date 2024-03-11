@@ -1,0 +1,49 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.container {
+    text-align: center;
+}
+
+.memory-board {
+    display: grid;
+    grid-template-columns: repeat(11, 100px);
+    gap: 10px;
+}
+
+.memory-card {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.memory-card:hover{
+    box-shadow: 0 0 10px blue;
+    transform: scale(1.1);
+}
+
+.memory-card.hidden {
+    background-color: #2c3e50;
+}
+
+.message {
+    font-size: 18px;
+    color: #27ae60;
+    margin-top: 20px;
+}

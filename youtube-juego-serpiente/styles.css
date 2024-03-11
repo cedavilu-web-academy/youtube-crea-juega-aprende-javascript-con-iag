@@ -1,0 +1,47 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.container {
+    text-align: center;
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(20, 20px);
+    gap: 2px;
+    border: 2px solid #34495e;
+    background-color: #ecf0f1;
+}
+
+.game-cell {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #bdc3c7;
+}
+
+.snake {
+    background-color: #2ecc71;
+}
+
+.food {
+    background-color: #e74c3c;
+}
+
+#score {
+    font-size: 18px;
+    color: #3498db;
+    margin-top: 10px;
+}
+
+#score-value {
+    font-weight: bold;
+    color: #e67e22;
+}
