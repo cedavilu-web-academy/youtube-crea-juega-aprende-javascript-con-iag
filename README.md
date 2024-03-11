@@ -1,4 +1,4 @@
-<h1>Código HTML5 - CSS3 y JavaScript, de Varios juegos creados</h1>
+<h1>Código HTML5 - CSS3 y JavaScript, de Varios juegos (Aprender el abecedario - memopria y la serpiente</h1>
 <h2>Creados con la ayuda de la Inteligencia Artificial Generativa</h2>
 <br>
 <h2>Al descargar este proyecto, debes efectuar los siguientes pasos:</h2>
